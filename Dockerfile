@@ -13,6 +13,7 @@ FROM python:3.11-slim
 # Set timezone to UTC (CRITICAL!)
 ENV TZ=UTC
 ENV PYTHONUNBUFFERED=1
+ENV PYTHONPATH=/app/src:/app
 
 WORKDIR /app
 
